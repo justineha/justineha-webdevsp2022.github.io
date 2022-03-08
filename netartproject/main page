@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" tyle= “text/css” href="pairstyle.css">
+<title> Analysis of The File Room </title>
+	</head>
+	<body id=”body_1”>
+		<main>
+			<h1> Analysis of The File Room </h1>
+			<h2> By: Vidur and Justine </h2>
+<div class="grid">
+  			<div><img src="https://www.prisa.com/uploads/2020/02/resized/850_850antoni-muntadas-artista-invitado-al-estand-de-el-pais-en-arcomadrid.jpg" alt="About the artist"></div>
+  			<div><img src="https://nt2.uqam.ca/sites/nt2.uqam.ca/files/styles/flexslider_big_thumbnails/public/nt2-10-ce01-1920x1200-the_file_room.jpg?itok=bUAZzTuH" alt="About the exhibition"></div>
+  			<div><img src="vidurreaction.jpeg" alt="Vidur’s reaction & reflection"></div>
+  			<div><img src="" alt="Justine’s reaction & reflection"></div>
+</div>
+
+<p>
+	
+</p>
+
+<!-- code for marquee from online tutorial https://www.geeksforgeeks.org/how-to-move-a-text-in-html/ -->
+<marquee> Welcome to Justine and Vidur's analysis of THE FILE ROOM by ANTONI MUTANDAS...</marquee>
+    <marquee direction="right" 
+        behavior="alternate" 
+    <marquee>
+	</body>
+</html>
+
