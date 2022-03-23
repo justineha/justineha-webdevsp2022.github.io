@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background:#e6241f;
+    font-family: 'Permanent Marker', cursive;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 75px;
+}
+
+h2 {
+    color: rgb(#000000);
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    font-size: 40px;
+    margin-bottom: 18px;
+}
+
+/* "Scroller Start" tutorial from: https://alvarotrigo.com/blog/7-scroll-text-animations-css-and-js/ */
+.scroller {
+  color: white;
+  height: 1.3em;
+  line-height: 1.15em;
+  position: relative;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  overflow: hidden;
+  width: 100em;
+  font-size: 30px;
+  text-align: center;
+}
+.scroller > span {
+  position: absolute;
+  top: 0;
+  animation: slide 8s infinite;
+  font-weight: bold;
+  display: inline-block;
+}
+
+@keyframes slide {
+  0% {
+    top: 0;
+  }
+  25% {
+    top: -1.2em;
+  }
+  50% {
+    top: -2.4em;
+  }
+  75% {
+    top: -3.6em;
+  }
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.bowl {
+  position: static;
+  margin: 140px 0 0 25px;
+ }
+
+ /* Moving image up and down from: https://stackoverflow.com/questions/59135939/how-to-make-an-icon-move-up-and-down-with-css-animation */
+.noodles {
+  position: fixed;
+  height: 450px;
+  width: 450px;
+  margin: 5px 0 0 -20px;
+  animation-name: noodle;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes noodle {
+  from { transform: translate(0,  0px); }
+  65%  { transform: translate(0, 40px); }
+  to   { transform: translate(0, -0px); }
+}
+
+
