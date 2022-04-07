@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Archivo:wght@500&family=Permanent+Marker&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background: whitesmoke;
+    font-family: 'Alata', sans-serif;
+}
+
+#text {
+  text-align: center;
+    font-size: 300%;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.image2 {
+  position: absolute;
+  width: 25%;
+  left: 15%;
+  margin-top: 2%;
+  align-items: center;
+
+}
+
+.png2 {
+  display: inline-flex;
+  border-top: 10px;
+  width: 280%;
+  height: 275%;
+  align-items: center;
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0%;
+  right: 15%;
+  height: 98%;
+  width: 280%;
+  opacity: 0;
+  transition: .4s ease;
+  background-color: grey;
+}
+
+.response2 {
+  color: white;
+  font-size: 20px;
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+
+.image2:hover .overlay {
+  opacity: 99%;
+}
