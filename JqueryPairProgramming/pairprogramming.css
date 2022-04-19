@@ -81,7 +81,7 @@ h1 {
   .bottomimages img{
     display:inline-block;
     margin:0px;
-    width: 280px;
+    width: 300px;
     height: auto;
     }
 
@@ -102,7 +102,7 @@ h1 {
 
 .theTops {
         position: fixed;
-        top: 38%;
+        top: 40%;
         left: 50%;
         /* bring your own prefixes */
         transform: translate(-50%, -50%);
@@ -111,7 +111,7 @@ h1 {
     .topimages img{
         display:inline-block;
         margin:0px;
-        width: 220px;
+        width: 240px;
         height: auto;
       }
   
@@ -126,8 +126,9 @@ h1 {
     border-bottom: 170px solid #555;
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
-    height: 650px;
-    width: 1440px;
-    top: -100px
+    height: 723px;
+    width: 1600px;
+    top: -200px;
   }
  
+
