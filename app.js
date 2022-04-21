@@ -18,8 +18,8 @@ const images = [
     './images/portfolio3.jpg',
     './images/portfolio4.jpg',
     './images/portfolio5.jpg',
-    './images/portfolio6.png'
-    './images.portfolio7.jpg,"
+    './images/portfolio6.png',
+    './images.portfolio7.jpg'
 ]
 
 let imgArr = [];
