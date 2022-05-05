@@ -1,0 +1,127 @@
+body {
+    background-color: #FFCA5E;
+    background-size: cover;
+    font-family:'Chicle', cursive;
+  }
+
+  
+  /* link title colors */
+  a:link, a:visited, a:active {
+    text-decoration: none;
+    color: #1361BA;
+    font-size: 90px;
+  }
+
+  #text {
+    margin: 0;
+    padding: 0;
+    font-size: 100px;
+    color: #57a501;
+  }
+  
+  /* CHANGE TITLE COLORS ON HOVER */
+  .green:hover {
+    color: #eb3d34;
+    display:inline-block;
+  }
+
+  .imgL  {
+    display: none;
+  }
+  
+  .imgL.show {
+    display: block;
+  }
+  
+  .post:hover {
+    color: #e88a17;
+  }
+  
+  .sza:hover {
+    color: #e8d717;
+  }
+  
+  .jack:hover {
+    color: #84e813;
+  }
+  
+  .weezer:hover {
+    color: #0522ff;
+  }
+  
+  .phoebe:hover {
+    color: #6f00ff;
+  }
+  
+  .lil:hover {
+    color: #f59fcd;
+  }
+  
+  .kali:hover {
+    color: #d92946;
+  }
+  
+  .disclosure:hover {
+    color: #db21bc;
+  }
+  
+  .mitski:hover {
+    color: #9a79fc;
+  }
+  
+  .polo:hover {
+    color: #5cd8f7;
+  }
+  
+  .anitta:hover {
+    color: #10b374;
+  }
+  
+  .dominic:hover {
+    color: #5edb42;
+  }
+  
+  .oliver:hover {
+    color: #d0e62e;
+  }
+  
+  .mac:hover {
+    color: #f09d37;
+  }
+  
+  .pusha:hover {
+    color: #eb5436;
+  }
+  
+  .mt:hover {
+    color: #edc615;
+  }
+  
+  .kim:hover {
+    color: #77de4e;
+  }
+  
+  .local:hover {
+    color: #d90019;
+  }
+
+  .marias:hover {
+    color: #e88a17;
+  }
+
+  .larry:hover {
+    color: #e8d717;
+  }
+
+  .gecs:hover {
+    color: #84e813;
+  }
+
+  .parcels:hover {
+    color: #0522ff;
+  }
+
+  .green:hover {
+    color: #6f00ff;
+  }
+
